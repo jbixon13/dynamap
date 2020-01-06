@@ -1,0 +1,11 @@
+extends layout
+
+block content
+
+    h1 #{title}
+    h3 Playing with dynamically generated list structures and routes.
+    h3 Data pulled from the Baltimore City Vacant Properties API.
+    div(id='container')
+        ul(id='results')
+
+    script(src='javascripts/fetch.js').

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+    div(id='location-metadata')
+
+    div(id='map')
+
+
+    //- store dynamic id as var for fetch-location.js to access
+    script. 
+        const id = '#{id}'
+
+    script(src='../javascripts/fetch-location.js').
+    script(src='../javascripts/map.js').
+
